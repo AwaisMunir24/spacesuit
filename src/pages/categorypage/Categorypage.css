@@ -1,0 +1,96 @@
+.Categorypage--page.---slide {
+  width: calc(100% - 400px);
+  display: flex;
+}
+.Categorypage--page{
+  display: flex;
+}
+.categy--page--sidebar--slide {
+  width: calc(100% - 400px);
+  /* height: 1000px; */
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.categy--page--sidebar--slide::-webkit-scrollbar {
+  width: 9px;
+}
+
+.categy--page--sidebar--slide::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.categy--page--sidebar--slide::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: 1px solid #f0863a;
+  border-radius: 20px;
+}
+.category--listing .listin--item--wrapper.--translate {
+  transform: translateX(-350px);
+  gap: 20px;
+}
+
+.category--listing .listin--item--wrapper .card_wrapper{
+  width: 24%;
+}
+
+
+.lisitng---slider---gr {
+  position: relative;
+}
+.lisitng---slider---gr::before {
+  content: "=> ";
+  position: absolute;
+  top: 43%;
+  left: 9px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  z-index: 9;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.categ--heroo {
+  background-image: url("../../assets/images/cate--bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* height: 450px; */
+  background-position: top right;
+  padding: 80px 0;
+  padding-bottom: 270px;
+}
+
+.cate---price--title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 36px;
+  text-align: right;
+  color: #378ad7;
+  margin: 35px 0;
+  margin-bottom: 45px;
+}
+
+.Categorypage--page .category--listing {
+  margin-top: -200px;
+  flex-wrap: wrap;
+}
+.category--listing .listin--item--wrapper {
+  flex-wrap: wrap;
+}
+
+
+@media screen  and (max-width : 1400px){
+  
+.category--listing .listin--item--wrapper .card_wrapper{
+  width: 32%;
+}
+}
